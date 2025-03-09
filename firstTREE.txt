@@ -1,0 +1,56 @@
+.
+├── Develop
+│   ├── client
+│   │   ├── Assets
+│   │   │   └── 19-testing-homework-demo.gif
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── vite.svg
+│   │   ├── src
+│   │   │   ├── App.css
+│   │   │   ├── App.tsx
+│   │   │   ├── assets
+│   │   │   │   └── react.svg
+│   │   │   ├── components
+│   │   │   │   └── Quiz.tsx
+│   │   │   ├── main.tsx
+│   │   │   ├── models
+│   │   │   │   ├── Answer.ts
+│   │   │   │   └── Question.ts
+│   │   │   └── services
+│   │   │       └── questionApi.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.node.json
+│   │   └── vite.config.ts
+│   ├── package.json
+│   ├── server
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── config
+│   │   │   │   └── connection.ts
+│   │   │   ├── controllers
+│   │   │   │   └── questionController.ts
+│   │   │   ├── models
+│   │   │   │   ├── Question.ts
+│   │   │   │   └── index.ts
+│   │   │   ├── routes
+│   │   │   │   ├── api
+│   │   │   │   │   ├── index.ts
+│   │   │   │   │   └── questionRoutes.ts
+│   │   │   │   └── index.ts
+│   │   │   ├── seeds
+│   │   │   │   ├── cleanDb.ts
+│   │   │   │   ├── pythonQuestions.json
+│   │   │   │   └── seed.ts
+│   │   │   └── server.ts
+│   │   └── tsconfig.json
+│   ├── tsconfig.json
+│   ├── vite.config.d.ts
+│   ├── vite.config.js
+│   └── vite.config.ts
+├── LICENSE
+├── README.md
+└── firstTREE.txt
+
+18 directories, 36 files

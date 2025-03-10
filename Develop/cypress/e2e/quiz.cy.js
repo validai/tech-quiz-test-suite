@@ -1,16 +1,15 @@
 describe('Tech Quiz E2E Test', () => {
-    it('completes a quiz successfully', () => {
+    it('Completes a quiz successfully', () => {
       cy.visit('/');
+      cy.get('button').contains('Start').click();
+      cy.get('.question').should('exist');
   
-      cy.contains('Start Quiz').click();
-  
-      for (let i = 0; i < 2; i++) {
-        cy.get('button').first().click();
+      for (let i = 0; i < 10; i++) {
+        cy.get('.option').first().click();
       }
   
-      cy.contains('Your Score:').should('exist');
-      cy.contains('Restart Quiz').click();
-      cy.contains('Start Quiz').should('exist');
+      cy.get('.quiz-over').should('contain', 'Quiz Over');
+      cy.get('.score').should('exist');
     });
   });
   

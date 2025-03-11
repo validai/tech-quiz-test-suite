@@ -1,0 +1,15 @@
+.
+├── component
+│   └── Quiz.cy.jsx
+├── cypress.txt
+├── e2e
+│   └── quiz.cy.js
+├── fixtures
+│   └── questions.json
+├── support
+│   ├── command.js
+│   ├── component.js
+│   └── e2e.js
+└── tsconfig.json
+
+5 directories, 8 files

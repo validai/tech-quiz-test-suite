@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "types": ["cypress", "node"],
+    "isolatedModules": false,
+    "baseUrl": "./"
+  },
+  "include": ["./**/*.ts", "./**/*.tsx", "support/component.js"]
+}
